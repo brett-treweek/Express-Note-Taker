@@ -105,6 +105,8 @@ const handleNoteView = (e) => {
 const handleNewNoteView = (e) => {
   activeNote = {};
   renderActiveNote();
+  noteTitle.removeAttribute('readonly');
+  noteText.removeAttribute('readonly');
 };
 
 const handleRenderSaveBtn = () => {
@@ -120,7 +122,7 @@ const renderNoteList = async (notes) => {
   let jsonNotes = await notes.json();
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
-  }
+  };
 
   let noteListItems = [];
 
