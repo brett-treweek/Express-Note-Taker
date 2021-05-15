@@ -1,3 +1,4 @@
+console.log('yay its linked')
 let noteTitle;
 let noteText;
 let saveNoteBtn;
