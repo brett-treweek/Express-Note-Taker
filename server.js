@@ -2,7 +2,7 @@ const express = require("express");
 const id = require("nanoid");
 const fs = require("fs");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Setting static folder so css and js works----------------------
 app.use(express.static("./Develop/public"));
