@@ -50,9 +50,9 @@ This project has been deployed to Heroku. Check out this link to easily try the 
 
 Run the app locally with the following command.   
 
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
 
 
