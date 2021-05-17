@@ -72,7 +72,7 @@ Contributing to this project is not currently available.
 
 Please use these commands to perform tests.
 
-```bash
+```js
 
 There are no tests at present.
 
@@ -81,4 +81,6 @@ There are no tests at present.
 ---
 ## Questions
 
-For any questions and support please contact Brett Treweek at bretttrew@gmail.com or message me through [GitHub](https://github.com/brett-treweek).
+For any questions and support please contact Brett Treweek  
+- Email: bretttrew@gmail.com  
+- Github: [brett-treweek](https://github.com/brett-treweek)
